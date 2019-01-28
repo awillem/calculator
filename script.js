@@ -7,8 +7,14 @@ let lastType = "num";
 let equation = 0;
 let calculation = 0;
 const symbols = [
+  {name: "openParen", sym: "("},
+  {name: "closeParen", sym: ")"},
+  {name: "divide", sym: "/"},
   {name: "percent", sym: "%"},
-  {name: "squareRoot", sym: "\u221A"}
+  {name: "times", sym: "*"},
+  {name: "minus", sym: "-"}, 
+  {name: "plus", sym: "+"},
+  {name: "squareRoot", sym: "&#8730"}
 ];
 let history = [];
 console.log(symbols);
